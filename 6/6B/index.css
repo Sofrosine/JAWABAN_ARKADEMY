@@ -1,0 +1,214 @@
+/* GLOBAL STYLE */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container {
+    width: 100%;
+    height: 900px;
+    min-width: 660px;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+}
+
+.clear {
+    clear: both;
+}
+
+/* HEADER */ 
+#header {
+    width: 100%;
+    height: 100px;
+    background-color: whitesmoke;
+}
+
+#header .logo {
+    width: 20%;
+    float:left;
+    font-size: 50px;
+    line-height: 100px;
+    height: 100px;
+    margin: 0;
+    margin-left: 100px;
+}
+
+#header .logo a {
+    text-decoration: none;
+    color: palevioletred;
+}
+
+#header .daftar {
+    width: 10%;
+    height: 50px;
+    margin: 25px 100px;
+    float: right;
+    background-color: palevioletred;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+#header .daftar:hover {
+    cursor: pointer;
+}
+
+/* FORM CONTENT */
+.muncul {
+    display: none;
+}
+
+.show {
+    width: 500px;
+    height: 500px;
+    background-color: whitesmoke;
+    box-shadow: 3px 10px 25px -10px;
+    position: fixed; 
+    z-index: 2;
+    margin: 10% 35%;
+    display: inline-block;
+
+}
+
+#hilang1 {
+    float: right;
+    margin: 0 5px;
+    font-weight: 400;
+}
+
+#hilang1:hover {
+    cursor: pointer;
+}
+
+/* FORM */
+
+.form {
+    margin-top: 25%;
+    font-weight: 800;
+    margin-left: 25%;
+
+}
+
+.form input {
+    border: 2px solid palevioletred;
+    margin-left: 20px;
+}
+
+/* TABLE */
+
+table {
+    background-color: plum;
+    color: whitesmoke;
+    /* border: 1px solid black; */
+    border-collapse:collapse;
+    border-spacing:0;
+    width: 800px;
+    font-weight: 800;
+    margin: 10% 25%;
+    position: absolute;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+th,td {
+    /* border: 1px solid whitesmoke; */
+    text-align: center;
+    padding: 30px;
+}
+
+
+/* KETERANGAN */
+.edit {
+    color: green;
+}
+
+.edit:hover {
+    cursor: pointer;
+}
+
+.del:hover {
+    cursor: pointer;
+}
+
+.del {
+    color: red;
+}
+
+
+
+/* EDIT */
+.show2 {
+    width: 500px;
+    height: 500px;
+    background-color: whitesmoke;
+    box-shadow: 3px 10px 25px -10px;
+    position: fixed; 
+    z-index: 3;
+    margin: 10% 35%;
+    display: inline-block;
+
+}
+/* FORM CONTENT */
+.muncul2 {
+    display: none;
+}
+
+#hilang2 {
+    float: right;
+    margin: 0 5px;
+    font-weight: 400;
+}
+
+#hilang2:hover {
+    cursor: pointer;
+}
+
+/* FORM */
+
+.form2 {
+    margin-top: 25%;
+    font-weight: 800;
+    margin-left: 25%;
+
+}
+
+.form2 input {
+    border: 2px solid palevioletred;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TRANSPARANT EFFECT */
+.transparan {
+    opacity: 0.5;
+}
